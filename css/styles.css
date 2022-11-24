@@ -4458,7 +4458,7 @@ input[type="button"].btn--primary:focus {
  * ## contact block
  * ------------------------------------------------------------------- */
 .contact-infos .btn {
-    margin-top: var(--vspace-0_75);
+    /*margin-top: var(--vspace-0_75);*/
 }
 
 .contact-block {
