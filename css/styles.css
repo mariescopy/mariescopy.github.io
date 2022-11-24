@@ -101,7 +101,8 @@
      */
 
     --color-1: hsla(110, 86%, 29%, 1); /*green*/
-    --color-2: hsla(117, 98%, 44%, 1);
+    --color-2: hsla(117, 98%, 44%, 1); /*bright green*/
+    --color-3: hsla(117, 98%, 12%, 1); /*dark green*/
 
     /* theme color variations
 
@@ -3266,7 +3267,8 @@ input[type="button"].btn--primary:focus {
     font-size: 1.3rem;
     text-transform: uppercase;
     letter-spacing: .4rem;
-    background-color: var(--color-2);
+    /*background-color: var(--color-2)*/;
+    background-color: var(--color-1);
     color: white;
     width: var(--header-height);
     height: var(--header-height);
@@ -4458,7 +4460,7 @@ input[type="button"].btn--primary:focus {
  * ## contact block
  * ------------------------------------------------------------------- */
 .contact-infos .btn {
-    /*margin-top: var(--vspace-0_75);*/
+    margin-top: var(--vspace-0_75);
 }
 
 .contact-block {
